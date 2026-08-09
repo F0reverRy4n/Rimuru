@@ -1,0 +1,11 @@
+body{
+
+background-image:var(--background)!important;
+
+background-size:cover;
+
+background-position:center;
+
+background-attachment:fixed;
+
+}

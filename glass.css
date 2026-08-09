@@ -1,0 +1,12 @@
+[class*=sidebar],
+[class*=chat],
+[class*=members],
+[class*=container]{
+
+background:rgba(10,20,35,.45)!important;
+
+backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.05);
+
+}

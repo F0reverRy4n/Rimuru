@@ -1,2 +1,0 @@
-# Rimuru
-theme for vencord

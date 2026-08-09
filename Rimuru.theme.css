@@ -1,0 +1,12 @@
+/**
+ * @name Rimuru Theme
+ * @author F0reverRy4n
+ * @version 1.0.0
+ * @description A Rimuru Theme for vencord, based on That Time I Got Reincarated as a Slime
+ */
+
+@import url("./colors.css");
+@import url("./layout.css");
+@import url("./glass.css");
+@import url("./animations.css");
+@import url("./extras.css");

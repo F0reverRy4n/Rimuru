@@ -1,0 +1,32 @@
+:root{
+
+/* Images */
+
+--background:url("./assets/background.jpg");
+--banner:url("./assets/banner.png");
+--profile:url("./assets/profile.png");
+--chat:url("./assets/chat.png");
+
+/* Accent */
+
+--accent:#69D8FF;
+--accent2:#A5EEFF;
+--accent-dark:#208BCB;
+
+/* Background */
+
+--bg1:#071321;
+--bg2:#0C1C33;
+--bg3:#122845;
+--bg4:#183356;
+
+/* Text */
+
+--text:#F8FDFF;
+--text-muted:#AAC9DD;
+
+/* Glow */
+
+--glow:rgba(105,216,255,.55);
+
+}
