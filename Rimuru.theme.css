@@ -1,19 +1,70 @@
 /**
- * @name Rimuru Theme
- * @author F0reverRy4n
+ * @name Rimuru Frosted Glass
+ * @author Ryan
  * @version 1.0.0
- * @description A Rimuru Theme for vencord, based on That Time I Got Reincarated as a Slime
+ * @description Rimuru Tempest themed FrostedGlass variant with slime‑blue accents and demon‑lord glow.
  */
 
-@import url("./animations.css");
-@import url("./colors.css");
-@import url("./extras.css");
-@import url("./glass.css");
-@import url("./layout.css");
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
 :root {
-  --rimuru-background: url("./assets/background.jpg");
-  --rimuru-banner: url("./assets/banner.jpg");
-  --rimuru-chat: url("./assets/chat.png");
-  --rimuru-logo: url("./assets/logo.png");
-  --rimuru-profile: url("./assets/profile.png");
+  /* Rimuru Background */
+  --background-image: url('https://i.imgur.com/8xqYp9p.jpeg'); /* Rimuru Tempest HD */
+  --background-image-blur: 6px;
+  --background-image-size: cover;
+  --background-image-position: center;
+
+  /* Popouts & Modals */
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 8px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+
+  /* Rimuru Home Button */
+  --home-button-image: url('https://i.imgur.com/7zQ0g0H.png'); /* Rimuru Slime Icon */
+  --home-button-size: contain;
+  --home-button-position: center;
+
+  /* Brightness (Rimuru = darker, neon accents) */
+  --serverlist-brightness: 0.75;
+  --left-brightness: 0.75;
+  --middle-brightness: 0.55;
+  --right-brightness: 0.15;
+  --popout-modal-brightness: 0.7;
+
+  /* Rimuru Gradient (cyan → deep blue) */
+  --gradient-primary: 105,216,255;   /* Slime blue */
+  --gradient-secondary: 32,139,203;  /* Demon lord blue */
+  --gradient-direction: 315deg;
+
+  /* Rimuru Tint */
+  --tint-colour: 105,216,255; /* Slime blue */
+  --tint-brightness: 0.25;
+
+  /* Rimuru UI Shape */
+  --window-padding: 22px;
+  --window-roundness: 14px;
+
+  /* Rimuru Scrollbar */
+  --scrollbar-colour: rgba(105,216,255,0.25);
+
+  /* Rimuru Link Color */
+  --link-colour: #69D8FF;
+
+  /* Rimuru Font */
+  --font: 'Whitney';
+
+  /* Do not touch */
+  --update-notice-1: none;
+}
+
+/* Rimuru Glow Accent */
+* {
+  transition: 0.2s ease;
+}
+
+:root .selected, :root .active {
+  box-shadow: 0 0 12px rgba(105,216,255,0.65);
 }
